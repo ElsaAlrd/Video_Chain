@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../VGA_source_bd.srcs/sources_1/new/extract_bit.vhd" \
-"../../../../VGA_source_bd.srcs/sim_1/new/tb_extract_bit.vhd" \
-
-# Do not sort compile order
-nosort
