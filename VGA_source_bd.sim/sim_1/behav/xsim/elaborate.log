@@ -1,0 +1,73 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 5a14720e1e864cd8ac31b9be38dd2789 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L c_reg_fd_v12_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_6 -L xbip_dsp48_addsub_v3_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_14 -L c_gate_bit_v12_0_6 -L xbip_counter_v3_0_6 -L c_counter_binary_v12_0_14 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L axi_lite_ipif_v3_0_4 -L v_tc_v6_2_0 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_design_1_wrapper_behav xil_defaultlib.tb_design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package c_counter_binary_v12_0_14.c_counter_binary_v12_0_14_viv_co...
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package xbip_counter_v3_0_6.xbip_counter_v3_0_6_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_counter_v3_0_6.xbip_counter_v3_0_6_pkg
+Compiling package c_counter_binary_v12_0_14.c_counter_binary_v12_0_14_pkg
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg_legacy
+Compiling package c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv_comp
+Compiling package c_addsub_v12_0_14.c_addsub_v12_0_14_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_signed
+Compiling package v_tc_v6_2_0.video_ctrl_pkg
+Compiling package v_tc_v6_2_0.hwt_pkg
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture structural of entity c_reg_fd_v12_0_6.c_reg_fd_v12_0_6_viv [\c_reg_fd_v12_0_6_viv(c_width=8,...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_14.c_addsub_v12_0_14_lut6_legacy [\c_addsub_v12_0_14_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_fabric_legacy [\c_addsub_v12_0_14_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_14.c_addsub_v12_0_14_legacy [\c_addsub_v12_0_14_legacy(c_fami...]
+Compiling architecture synth of entity c_counter_binary_v12_0_14.c_counter_binary_v12_0_14_legacy [\c_counter_binary_v12_0_14_legac...]
+Compiling architecture synth of entity c_counter_binary_v12_0_14.c_counter_binary_v12_0_14_viv [\c_counter_binary_v12_0_14_viv(c...]
+Compiling architecture xilinx of entity c_counter_binary_v12_0_14.c_counter_binary_v12_0_14 [\c_counter_binary_v12_0_14(c_xde...]
+Compiling architecture design_1_c_counter_binary_0_0_arch of entity xil_defaultlib.design_1_c_counter_binary_0_0 [design_1_c_counter_binary_0_0_de...]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=11.87...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0
+Compiling architecture extract_bit_arch of entity xil_defaultlib.extract_bit [extract_bit_default]
+Compiling architecture design_1_extract_bit_0_0_arch of entity xil_defaultlib.design_1_extract_bit_0_0 [design_1_extract_bit_0_0_default]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.proc_sys_reset [\proc_sys_reset(c_family="zynq",...]
+Compiling architecture design_1_rst_clk_wiz_0_108m_0_arch of entity xil_defaultlib.design_1_rst_clk_wiz_0_108M_0 [design_1_rst_clk_wiz_0_108m_0_de...]
+Compiling architecture rtl of entity v_tc_v6_2_0.video_ctrl [\video_ctrl(c_family="virtex5",c...]
+Compiling architecture rtl of entity v_tc_v6_2_0.tc_generator [\tc_generator(c_max_pixels=4096,...]
+Compiling architecture rtl of entity v_tc_v6_2_0.tc_top [\tc_top(c_detect_en=0,c_det_achr...]
+Compiling architecture imp of entity v_tc_v6_2_0.v_tc [\v_tc(c_has_axi4_lite=0,c_gen_vi...]
+Compiling architecture design_1_v_tc_0_0_arch of entity xil_defaultlib.design_1_v_tc_0_0 [design_1_v_tc_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling architecture tb_design_1_wrapper_arch of entity xil_defaultlib.tb_design_1_wrapper
+Built simulation snapshot tb_design_1_wrapper_behav
